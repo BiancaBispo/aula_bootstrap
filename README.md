@@ -14,8 +14,3 @@ Curso com o intuito de aprender sobre o framework Bootstrap e aprofundando mais 
 <!--<img align="center" alt="gif-pic" height="210" style="border-radius:50px;" src="https://i.pinimg.com/originals/d6/47/b4/d647b456928a2d3672f45cc782a94b35.gif"> 
 -->
 
-## Informações
-
-<div>
-    <img height="180em" src="https://starchart.cc/BiancaBispo/aula_bootstrap.svg"/>
-</div>
