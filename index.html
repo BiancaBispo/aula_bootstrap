@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--O head é para colocar nosso metadado-->
+        <title>Minha página</title>
+        <!--Quando não colocamos o meta os acentos não carregam, informar a lingua-->
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        <!--Menu - navbar-->
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#">
+                <img src="img/flor-de-lotus.png" alt="imagem-logo">
+            </a>
+
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item">
+                      <a class="nav-link" href="#quemsomos">Quem Somos?</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                      </li>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                      </li>
+
+                </ul>
+            </div>
+        </nav>
+
+        <!--Fazer um section para cada link do menu - navbar-->
+        <section id="quemsomos">
+            <!-- Somente com o container não fica na tela toda, por isso usamos o 'fluid' para preencher a tela <div class="container quemsomos">-->
+            <div class="container-fluid quem-somos text-center margin">
+                <h1 class="margin">Quem somos?</h1>
+                <img src="img/fundo1.jpg" class="rounded-circle" width="400" height="400" alt="Quem somos">
+                <h3 class="margin">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptate labore praesentium molestias deleniti obcaecati dolorum quae, alias qui. Ab quo iste, earum labore ullam praesentium nisi soluta nemo! Cum.</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid parceiro-Cor text-center margin">
+                <h1 class="margin">Parceiros</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 img-margin">
+                            <img src="img/img1.jpg" width="100%" height="100%" alt="parceiros">
+                        </div>
+                        <div class="col-lg-4 img-margin">
+                            <img src="img/img2.jpg" width="100%" height="100%" alt="parceiros">
+                        </div>
+                        <div class="col-lg-4 img-margin">
+                            <img src="img/img4.jpg" width="100%" height="100%" alt="parceiros">
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </section>
+
+        <section id="servicos">
+            <div class="container-fluid servicos text-center margin">
+                <h1 class="margin">Serviços</h1>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 img-margin">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis unde natus exercitationem cum harum. Harum cumque aliquam quidem cupiditate perferendis qui? Sint fugiat voluptatem fugit totam nemo provident unde obcaecati!</p>
+                            <img src="img/fundo2.jpg" width="100%" alt="servicos">
+                        </div>
+                        <div class="col-lg-6 img-margin">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis unde natus exercitationem cum harum. Harum cumque aliquam quidem cupiditate perferendis qui? Sint fugiat voluptatem fugit totam nemo provident unde obcaecati!</p>
+                            <img src="img/fundo3.jpg" width="100%" alt="servicos">
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="container-fluid margin-footer text-center">
+            <p>Curso desenvolvido por Rafael Galleani</p>
+        </footer>
+        
+    </body>
+</html>

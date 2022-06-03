@@ -1,0 +1,39 @@
+/*Cor do menu*/
+.navbar {
+    background-color: #48c9afea;
+}
+
+/*cor da section*/
+.quem-somos {
+    background-color:   #f8f9f9 ;
+}
+
+.parceiro-Cor{
+    background-color:  #f8c471bb;
+}
+
+.servicos{
+    background-color: #5dade2be;
+}
+
+/*cria um espaçamento quando esta classe for selecionada*/
+.margin {
+    /*Margin acima - com um espaço em branco
+    margin-top: 30px;
+    */
+
+    /*Margin interna ACIMA - dentro do meu componente*/
+    padding-top: 50px;
+
+    /*Margin interna ABAIXO - dentro do meu componente*/
+    padding-bottom: 50px;
+}
+
+.img-margin {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.margin-footer {
+    margin-top: 15px;
+}
